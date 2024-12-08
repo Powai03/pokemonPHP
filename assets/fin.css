@@ -1,0 +1,29 @@
+body{
+    background: url('https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-lets-go-pikachu-eevee/0/05/Screen_Shot_2018-12-01_at_1.40.11_AM.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1, h2{
+    margin: 5vh;
+    color: yellow;
+    text-shadow: -2px -2px 0 #0000FF, 2px -2px 0 #0000FF, -2px 2px 0 #0000FF, 2px 2px 0 #0000FF;
+}
+.resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+a{
+    text-decoration: none;
+    color: white;
+}

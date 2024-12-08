@@ -1,0 +1,45 @@
+body{
+    background: url('https://64.media.tumblr.com/082119f1e708199c72681cc2ebce852e/6028fe13daf9df5f-1c/s2048x3072_c13604,0,82095,99797/50961a094d9a11c1606f04219847f99c520955f1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    margin: 10vh;
+    color: yellow;
+    text-shadow: -2px -2px 0 #0000FF, 2px -2px 0 #0000FF, -2px 2px 0 #0000FF, 2px 2px 0 #0000FF;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 10px;
+    width: 50%;
+}
+
+button{
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.vert button {
+    background-color: green;
+}
+
+.rouge button {
+    background-color: red;
+}

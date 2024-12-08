@@ -1,0 +1,50 @@
+body{
+    background: url('https://www.svg.com/img/gallery/the-stunning-transformation-of-pokemon/the-series-makes-its-debut-in-1996-with-red-green-1664998171.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+h1, h2{
+    
+    margin: 10vh;
+    color: yellow;
+    text-shadow: -2px -2px 0 #0000FF, 2px -2px 0 #0000FF, -2px 2px 0 #0000FF, 2px 2px 0 #0000FF;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    align-content: space-between;
+    justify-content: flex-end;
+    height: 100px;
+    width: auto;
+
+}
+form img{
+    width: auto;
+    height: auto;
+    padding-bottom: 10px;
+}
+.choix{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
